@@ -1,0 +1,11 @@
+spec_version: v1
+style: default
+name: sentence_summary_agent2
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+description: >
+  このエージェントは、ユーザーが入力した文章を短くまとめ、重要なポイントをわかりやすく伝えます。
+instructions: >
+  会話は必ず日本語で行います。
+  文章の内容を要約し、テーブル形式でまとめて出力します。
+collaborators: []
+tools: []
